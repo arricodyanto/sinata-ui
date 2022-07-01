@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container-fluid">
           <div className="row">
               <div className="col-md-6">
-                  2022 &copy; Arrico Handyanto. All Rights Reserved. Develop for <i data-feather="codesandbox"></i> Sinata
+                  2022 &copy; Arrico Handyanto. All Rights Reserved. Developed for <i data-feather="codesandbox"></i> Sinata
               </div>
               <div className="col-md-6">
                   <div className="text-md-end footer-links d-none d-sm-block">

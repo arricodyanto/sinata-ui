@@ -222,28 +222,28 @@ export default function Topbar() {
 
                 <li className="dropdown notification-list topbar-dropdown">
                     <a className="nav-link dropdown-toggle nav-user me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                        <img src="/images/users/avatar-1.jpg" alt="user-image" className="rounded-circle" />
+                        <img src="/images/users/avatar-default.png" alt="user-image" className="rounded-circle" />
                         <span className="pro-user-name ms-1">
-                            Nik Patel <i className="uil uil-angle-down"></i>
+                            Maryani <i className="uil uil-angle-down"></i>
                         </span>
                     </a>
                     <div className="dropdown-menu dropdown-menu-end profile-dropdown ">
                         <div className="dropdown-header noti-title">
-                            <h6 className="text-overflow m-0">Welcome !</h6>
+                            <h6 className="text-overflow m-0">Selamat Datang !</h6>
                         </div>
 
                         <a href="pages-profile.html" className="dropdown-item notify-item">
-                            <i className="uil-user me-1"></i><span>My Account</span>
+                            <i className="uil-user me-1"></i><span>Profil Akun</span>
                         </a>
 
                         <a href="pages-lock-screen.html" className="dropdown-item notify-item">
-                            <i className="uil-padlock me-1"></i><span>Lock Screen</span>
+                            <i className="uil-padlock me-1"></i><span>Layar Kunci</span>
                         </a>
 
                         <div className="dropdown-divider"></div>
 
                         <a href="pages-logout.html" className="dropdown-item notify-item">
-                            <i className="uil-exit me-1"></i><span>Logout</span>
+                            <i className="uil-exit me-1"></i><span>Log Out</span>
                         </a>
 
                     </div>
@@ -258,23 +258,23 @@ export default function Topbar() {
             </ul>
 
             <div className="logo-box">
-                <a href="index.html" className="logo logo-dark">
+                <a href="/dashboard" className="logo logo-dark">
                     <span className="logo-sm">
                         <img src="/images/logo-sm.png" alt="" height="24" />
                         {/* <!-- <span className="logo-lg-text-light">Shreyu</span> --> */}
                     </span>
-                    <span className="logo-lg">
-                        <img src="/images/logo-dark.png" alt="" height="24" />
+                    <span className="logo-lg ms-3">
+                        <img src="/images/logo-dark.png" alt="" height="40" />
                         {/* <!-- <span className="logo-lg-text-light">S</span> --> */}
                     </span>
                 </a>
 
-                <a href="index.html" className="logo logo-light">
+                <a href="/dashboard" className="logo logo-light">
                     <span className="logo-sm">
                         <img src="/images/logo-sm.png" alt="" height="24" />
                     </span>
-                    <span className="logo-lg">
-                        <img src="/images/logo-light.png" alt="" height="24" />
+                    <span className="logo-lg ms-3">
+                        <img src="/images/logo-light.png" alt="" height="40" />
                     </span>
                 </a>
             </div>

@@ -8,12 +8,11 @@ export default function DashboardContent() {
                 <div className="row">
                     <div className="col-12">
                         <div className="page-title-box">
-                            <h4 className="page-title">Starter</h4>
+                            <h4 className="page-title">Dashboard</h4>
                             <div className="page-title-right">
                                 <ol className="breadcrumb m-0">
-                                    <li className="breadcrumb-item"><a href="javascript: void(0);">Shreyu</a></li>
-                                    <li className="breadcrumb-item"><a href="javascript: void(0);">Pages</a></li>
-                                    <li className="breadcrumb-item active">Starter</li>
+                                    <li className="breadcrumb-item"><a href="javascript: void(0);">Sinata</a></li>
+                                    <li className="breadcrumb-item active">Dashboard</li>
                                 </ol>
                             </div>
                         </div>
