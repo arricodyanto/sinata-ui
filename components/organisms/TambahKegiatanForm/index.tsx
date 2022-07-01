@@ -24,8 +24,9 @@ export default function TambahKegiatanForm() {
                     <div className="col-md-9">
                         <div className="card">
                             <div className="card-body">
-                                <div className="col-md">
-                                    <h6 className="alert alert-warning mb-3 mt-0 fst-italic fw-lighter">Sebelum mengajukan layanan, harap pastikan judul dan detail acara anda sudah terdaftar pada sistem</h6>
+                                <div className="alert alert-warning alert-dismissible fade show mb-3 mt-0 fst-italic fw-lighter" role="alert">
+                                    Sebelum mengajukan layanan, harap pastikan judul dan detail acara anda sudah terdaftar pada sistem
+                                    <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                                 <form>
                                     <div className="mb-3">
@@ -46,9 +47,12 @@ export default function TambahKegiatanForm() {
                                             <input type="time" id="24hours-timepicker" className="form-control" placeholder="Waktu Kegiatan" />
                                         </div>
                                     </div>
-                                    <div className="mb-3">
+                                    <div className="mb-1">
                                         <label className="form-label" for="tempatKegiatan">Tempat/Lokasi</label>
                                         <input type="text" className="form-control" id="tempatKegiatan" placeholder="Masukkan lokasi acara kegiatan" />
+                                    </div>
+                                    <div className="div">
+                                        <span className="badge badge-soft-info mb-3">Data kegiatan akan digunakan pada pelayanan yang diajukan, mohon pastikan informasi yang anda masukkan sudah benar.</span>
                                     </div>
                                     <button type="submit" className="btn btn-primary">Tambahkan Data</button>
                                 </form>

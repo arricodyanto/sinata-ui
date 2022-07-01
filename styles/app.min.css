@@ -3577,10 +3577,12 @@ th.fc-day-header {
 }
 
 .table .badge:hover {
+    cursor: pointer;
     visibility: visible;
     transition: 0.15s ease-in;
     transform: scale(1.3);
     filter: brightness(110%);
+    box-shadow: 0 2px 5px -3px rgba(0, 0, 0, .7);
 }
 
 .fc-basic-view td.fc-week-number span {

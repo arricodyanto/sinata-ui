@@ -5,7 +5,9 @@ import '../public/libs/flatpickr/flatpickr.min.css'
 import '../public/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css'
 import '../public/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css'
 import '../public/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css'
-import '../public/libs/datatables.net-select-bs4/css//select.bootstrap4.min.css'
+import '../public/libs/datatables.net-select-bs4/css/select.bootstrap4.min.css'
+import '../public/libs/select2/css/select2.min.css'
+import '../public/libs/multiselect/css/multi-select.css'
 
 import Script from 'next/script'
 import type { AppProps } from 'next/app'
@@ -33,6 +35,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Script src="/libs/datatables.net-buttons/js/buttons.print.min.js" />
       <Script src="/libs/datatables.net-keytable/js/dataTables.keyTable.min.js" />
       <Script src="/libs/datatables.net-select/js/dataTables.select.min.js" />
+      <Script src="/libs/select2/js/select2.min.js" />
+      <Script src="/libs/multiselect/js/jquery.multi-select.js" />
+
 
       <Script src="/js/pages/form-advanced.init.js" />
       <Script src="/js/pages/datatables.init.js" />

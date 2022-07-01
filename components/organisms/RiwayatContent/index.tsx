@@ -512,7 +512,7 @@ export default function RiwayatContent() {
                                 </table>
                                 <div className="row">
                                     <a href="/kegiatan/tambah">
-                                        <button type="button" className="btn btn-primary width-md mt-2">Tambahkan Kegiatan</button>
+                                        <button type="button" className="btn btn-primary width-md mt-2 d-grid float-lg-start mx-auto">Tambahkan Kegiatan</button>
                                     </a>
                                 </div>
                             </div>

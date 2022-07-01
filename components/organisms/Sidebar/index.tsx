@@ -62,7 +62,7 @@ export default function Sidebar() {
                         </a>
                         <div className="collapse" id="sidebarLayanan">
                             <ul className="nav-second-level">
-                                <li><a href="/layanan-humas">Layanan Hubungan Masyarakat</a></li>
+                                <li><a href="/layanan/layanan_humas">Layanan Hubungan Masyarakat</a></li>
                                 <li><a href="/layanan-publikasi">Layanan Publikasi</a></li>
                                 <li><a href="/layanan-media">Layanan Media</a></li>
                             </ul>
