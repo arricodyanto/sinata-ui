@@ -38,7 +38,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Script src="/libs/select2/js/select2.min.js" />
       <Script src="/libs/multiselect/js/jquery.multi-select.js" />
 
-
       <Script src="/js/pages/form-advanced.init.js" />
       <Script src="/js/pages/datatables.init.js" />
 
