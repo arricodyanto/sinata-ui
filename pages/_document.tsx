@@ -4,7 +4,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 // import Topbar from '../components/organisms/Topbar'
 
 export default class CustomDocument extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps(ctx:any) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
   }

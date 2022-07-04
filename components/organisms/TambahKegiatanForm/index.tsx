@@ -30,12 +30,12 @@ export default function TambahKegiatanForm() {
                                 </div>
                                 <form>
                                     <div className="mb-3">
-                                        <label className="form-label" for="judulKegiatan">Judul Kegiatan</label>
+                                        <label className="form-label">Judul Kegiatan</label>
                                         <input type="text" className="form-control" id="judulKegiatan" placeholder="Masukkan judul acara kegiatan" />
                                     </div>
                                     <div className="mb-3">
-                                        <label className="form-label" for="deskripsiKegiatan">Deskripsi Kegiatan</label>
-                                        <textarea className="form-control" rows="2" id="deskripsiKegiatan" placeholder="Deskripsikan secara singkat kegiatan inti acara"></textarea>
+                                        <label className="form-label">Deskripsi Kegiatan</label>
+                                        <textarea className="form-control" rows={2} id="deskripsiKegiatan" placeholder="Deskripsikan secara singkat kegiatan inti acara"></textarea>
                                     </div>
                                     <div className="row">
                                         <div className="mb-3 col-md-3">
@@ -48,7 +48,7 @@ export default function TambahKegiatanForm() {
                                         </div>
                                     </div>
                                     <div className="mb-1">
-                                        <label className="form-label" for="tempatKegiatan">Tempat/Lokasi</label>
+                                        <label className="form-label">Tempat/Lokasi</label>
                                         <input type="text" className="form-control" id="tempatKegiatan" placeholder="Masukkan lokasi acara kegiatan" />
                                     </div>
                                     <div className="div">

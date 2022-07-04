@@ -58,7 +58,7 @@ export default function Login() {
                                             <div className="mb-3">
                                                 <div className="form-check">
                                                     <input type="checkbox" className="form-check-input" id="checkbox-signin" />
-                                                    <label className="form-check-label" for="checkbox-signin">Remember me</label>
+                                                    <label className="form-check-label">Remember me</label>
                                                 </div>
                                             </div>
 
